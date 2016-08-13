@@ -24,10 +24,10 @@
     scrollView.pageControl.currentPageIndicatorTintColor = [UIColor orangeColor];
     scrollView.pageControl.pageIndicatorTintColor = [UIColor grayColor];
     //需要显示的所有图片
-    //本地图片
+    //使用本地图片
 //    scrollView.imageArray = @[@"0.jpg", @"1.jpg", @"2.jpg", @"3.jpg", @"4.jpg"];
     
-    //网络图片
+    //使用网络图片 带缓存
     scrollView.placeholderImage = [UIImage imageNamed:@"0.jpg"];
     NSArray *array = @[@"http://dl.bizhi.sogou.com/images/2012/09/30/44928.jpg",
                         @"http://www.deskcar.com/desktop/star/world/20081017165318/27.jpg",
